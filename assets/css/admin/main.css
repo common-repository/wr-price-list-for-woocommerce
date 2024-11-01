@@ -1,0 +1,323 @@
+/*@import url('https://fonts.googleapis.com/css?family=Nunito:400,700&display=swap');*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,500;0,800;1,800&family=Poppins:ital,wght@0,200;0,400;1,700&display=swap');
+
+
+.wrpl-page,input[type='file'],textarea#custom_msg_not_login_user{
+    font-size: 12px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+}
+
+table.list-sap th{
+    font-size: 14px !important;
+}
+table.list-sap td{
+    padding: .2rem;
+    vertical-align: middle;
+}
+
+table tr.wrpl-variation-row{
+    background: #F5F5DC !important;
+}
+
+.disabled {
+    color: darkgrey;
+}
+
+input:required:invalid, input:focus:invalid {
+    background-image: url(../../img/invalid.png);
+    background-size: 12px;
+    background-position: right center;
+    background-repeat: no-repeat;
+    width: 10px;
+    color: red;
+}
+input:required:valid {
+    background-image: url(../../img/valid.png);
+    background-size: 12px;
+    background-position: right center;
+    background-repeat: no-repeat;
+    width: 10px;
+}
+
+/*Deactive spinner input number text*/
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+
+}
+
+/* block screen */
+#modal-overlay {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    top : -500px;
+    left: -500px;
+    background: black;
+    opacity: .6;
+    filter: alpha(opacity=60);
+    width: 3000px;
+    height: 4000px;
+    color:red !important;
+}
+/*preload efect*/
+.wrpl_loader {
+    display: none;
+    border: 16px solid #f3f3f3; /* Light grey */
+    border-top: 16px solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 120px;
+    position: fixed;
+    top: 50%;
+    left:50%;
+    height: 120px;
+    z-index: 1002;
+    animation: spin 2s linear infinite;
+}
+
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/*tabs style*/
+
+#wrpl_tabs .tab-content {
+    background-color: #f2f2f2;
+    padding : 5px 15px;
+    -webkit-box-shadow: 8px -1px 9px -7px rgba(0,0,0,0.48);
+    box-shadow: 8px -1px 9px -7px rgba(0,0,0,0.48);
+}
+
+#wrpl_tabs ul li{
+    margin-right: 7px;
+    font-size: 15px;
+    list-style: none;
+    padding: 0;
+    margin-bottom: 0;
+}
+#wrpl_tabs ul li a{
+    text-decoration: none;
+    padding: 18px;
+    margin-right: 8px;
+    margin-bottom: 10px;
+}
+
+#wrpl_tabs ul li  a.active{
+    background:#f2f2f2 ;
+    border-radius: 8px 8px 0 0;
+    -webkit-box-shadow: 8px -1px 9px -7px rgba(0,0,0,0.48);
+    box-shadow: 8px -1px 9px -7px rgba(0,0,0,0.48);
+}
+
+@media only screen and (max-width: 767px) {
+    #wrpl_tabs ul li  a.active{
+        color:#000 ;
+        background:none ;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+        text-align: center;
+    }
+    .dataTables_length{
+        display:none !important;
+    }
+    .container-fluid,#wrpl_tabs{
+        padding: 0 !important;
+    }
+    #wrpl_tabs li a{
+        padding: 0 !important;
+    }
+    #wrpl_tabs li{
+        padding: 10px !important;
+        background-color: #f2f2f2;
+        border-bottom: 1px solid lightgrey;
+        text-align: center;
+
+    }
+}
+
+#wrpl_tabs *{
+    outline: none !important;
+}
+ul.nav-pills{
+    margin-bottom: 17px;
+}
+
+.tab-pane{
+    padding-top: 10px;
+}
+
+ul.list-group li{
+    font-size: 12px !important;
+}
+
+/* BUTTONS ICON */
+.wrpl-trash:before {
+    content: "\f182";
+    -webkit-font-smoothing: antialiased;
+    font: normal 15px/1 'dashicons';
+    color: #fff;
+    vertical-align: middle;
+}
+
+.wrpl-trash-rule:before {
+    content: "\f182";
+    -webkit-font-smoothing: antialiased;
+    font: normal 15px/1 'dashicons';
+    color: #000;
+    vertical-align: middle;
+}
+
+.wrpl-edit:before {
+    content: "\f464";
+    -webkit-font-smoothing: antialiased;
+    font: normal 15px/1 'dashicons';
+    color: #fff;
+    vertical-align: middle;
+}
+.wrpl-view:before {
+    content: "\f177";
+    -webkit-font-smoothing: antialiased;
+    font: normal 15px/1 'dashicons';
+    color: #fff;
+    vertical-align: middle;
+}
+
+.wrpl-expand:before {
+    content: "\f132";
+    -webkit-font-smoothing: antialiased;
+    font: normal 15px/1 'dashicons';
+    color: #000;
+    vertical-align: middle;
+}
+.wrpl-collapse:before {
+    content: "\f460";
+    -webkit-font-smoothing: antialiased;
+    font: normal 15px/1 'dashicons';
+    color: #000;
+    vertical-align: middle;
+}
+.wrpl-cat:before {
+    content: "\f323";
+    -webkit-font-smoothing: antialiased;
+    font: normal 15px/1 'dashicons';
+    color: #000;
+    vertical-align: middle;
+}
+
+
+
+#price_list_by_role .active{
+    color: #000 !important;
+}
+
+
+.wrpl-sortable:before {
+    content: "\f545";
+    display: block;
+    font: normal 15px/1 'dashicons';
+    width: 15px;
+    height: 15px;
+}
+/* price list with parent styles */
+.wrpl-nobase-pl .price,.wrpl-nobase-pl .sale_price{
+    background: lightgoldenrodyellow;
+}
+span.wrpl-increase{
+    color: green !important;
+}
+span.wrpl-decrease{
+    color: red !important;
+}
+/*style for sortable category list*/
+.wrpl-sortable{
+    cursor: pointer;
+}
+
+#deleteAreaRule{
+    height: 50px;
+    border-radius: 5px;
+    vertical-align: middle;
+    padding: 15px;
+}
+
+
+#wrpl_rules_categories li { cursor: move; }
+.dropArea {
+    background-color: #fee
+}
+.dropAreaHover {
+    background-color: #f00;
+    color: white !important;
+}
+
+ul.wrpl_list_categories li{
+    font-size: 10px !important;
+}
+
+/*Pricing setting tab*/
+section.pricing {
+    background: #007bff;
+    background: linear-gradient(to right, #0062E6, #33AEFF);
+}
+
+.pricing .card {
+    border: none;
+    border-radius: 1rem;
+    transition: all 0.2s;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+}
+
+.pricing hr {
+    margin: 1.5rem 0;
+}
+
+.pricing .card-title {
+    margin: 0.5rem 0;
+    font-size: 0.9rem;
+    letter-spacing: .1rem;
+    font-weight: bold;
+}
+
+.pricing .card-price {
+    font-size: 3rem;
+    margin: 0;
+}
+
+.pricing .card-price .period {
+    font-size: 0.8rem;
+}
+
+.pricing ul li {
+    margin-bottom: 1rem;
+}
+
+.pricing .text-muted {
+    opacity: 0.7;
+}
+
+.pricing .btn {
+    font-size: 80%;
+    border-radius: 5rem;
+    letter-spacing: .1rem;
+    font-weight: bold;
+    padding: 1rem;
+    opacity: 0.7;
+    transition: all 0.2s;
+}
+
+/* Hover Effects on Card */
+@media (min-width: 992px) {
+    .pricing .card:hover {
+        margin-top: -.25rem;
+        margin-bottom: .25rem;
+        box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
+    }
+    .pricing .card:hover .btn {
+        opacity: 1;
+    }
+}
+

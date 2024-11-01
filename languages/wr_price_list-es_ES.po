@@ -1,0 +1,394 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: wr_price_list\n"
+"POT-Creation-Date: 2022-05-23 17:07-0400\n"
+"PO-Revision-Date: 2022-05-23 17:07-0400\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.0.1\n"
+"X-Poedit-Basepath: ../inc\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: Base/WRPL_Signature.php:99
+msgid "License activated!"
+msgstr "Licencia activada!"
+
+#: Base/WRPL_Signature.php:108
+msgid "This license is in use!"
+msgstr "¡Esta licencia está en uso!"
+
+#: Base/WRPL_Signature.php:117
+msgid "Invalid purchase code!, "
+msgstr "¡Código de compra no válido!, "
+
+#: Base/WRPL_Signature.php:129
+msgid "Error trying to activating the license, Invalid license!"
+msgstr "Error al intentar activar la licencia, ¡Licencia no válida!"
+
+#: Base/WRPL_Signature.php:144
+msgid "This license was successfully deactivated"
+msgstr "Esta licencia se desactivó correctamente"
+
+#: Base/WRPL_Signature.php:153
+msgid "Please try in a couple seconds, license server busy"
+msgstr ""
+"Por favor, pruebe en un par de segundos, el servidor de licencias ocupado"
+
+#: Base/WRPL_Signature.php:162
+msgid "Error trying to deactivating the license, Invalid license!"
+msgstr "Error al intentar desactivar la licencia, ¡Licencia no válida!"
+
+#: Controller/PriceListController.php:59
+msgid "Settings saved!"
+msgstr "Ajustes guardados!"
+
+#: Controller/PriceListController.php:110
+msgid "There was an error with the file format"
+msgstr "Elija un archivo csv para importar"
+
+#: Controller/PriceListController.php:423
+msgid "The role was added, assign a price list to it"
+msgstr "Se agregó el rol, asígnele una lista de precios"
+
+#: Controller/ProductController.php:501 Controller/ProductController.php:506
+#: Controller/ProductController.php:512 Controller/ProductController.php:514
+#: Controller/ProductController.php:519
+msgid "The product with id: "
+msgstr "El product con ID -> "
+
+#: Controller/ProductController.php:501 Controller/ProductController.php:512
+msgid " was updated"
+msgstr "fue actualizado"
+
+#: Controller/ProductController.php:506 Controller/ProductController.php:514
+msgid ""
+" was no inserted, you must follow this rule: regular > sale and regular > 0"
+msgstr ""
+"no fue insertado, usted debe seguir la siguiente regla: precio regular > "
+"precio venta y precio regular > 0"
+
+#: Controller/ProductController.php:519
+msgid " was not found"
+msgstr "no fue encontrado"
+
+#: Functions/PriceList.php:201 Functions/PriceList.php:205
+#: Functions/PriceList.php:207
+msgid "Starting at "
+msgstr "Empezando en"
+
+#: Pages/Pages.php:20
+msgid "Products New"
+msgstr "Nuevos Productos"
+
+#: Util/helper.php:40
+msgid "Server Error, please try in a couple seconds."
+msgstr "Error, por favor trate en unos segundos"
+
+#: Util/helper.php:41
+msgid "Showing "
+msgstr "Mostrando"
+
+#: Util/helper.php:42
+msgid "License / Support "
+msgstr "Licencia / Soporte"
+
+#: Util/helper.php:43
+msgid "of"
+msgstr "de"
+
+#: Util/helper.php:44
+msgid "Search"
+msgstr "Buscar"
+
+#: Util/helper.php:45 Util/helper.php:72
+msgid "Products"
+msgstr "Productos"
+
+#: Util/helper.php:46
+msgid "All Categories"
+msgstr "Todas Categorías"
+
+#: Util/helper.php:47
+msgid "The price was not updated"
+msgstr "La lista de precios fue actualizada satisfactoriamente"
+
+#: Util/helper.php:48
+msgid "Price Lists"
+msgstr "Listas de Precio"
+
+#: Util/helper.php:49
+msgid "There was an error trying to get the license"
+msgstr "Hubo un error al tratar de agregar la licencia"
+
+#: Util/helper.php:50
+msgid "Please, enter a valid license!"
+msgstr "Por favor, entre una licencia válida"
+
+#: Util/helper.php:51
+msgid "CSV file format only"
+msgstr "Solo formato csv es permitido"
+
+#: Util/helper.php:52
+msgid "Your file is too big! Please select an image under 1MB"
+msgstr "El archivo es muy grande, seleccione una image de menos de un 1mb"
+
+#: Util/helper.php:53
+msgid "Upload a file!"
+msgstr "Suba un archivo"
+
+#: Util/helper.php:54
+msgid "Upload Finished!"
+msgstr "Subida terminida!"
+
+#: Util/helper.php:55
+msgid "Enter a price list name"
+msgstr "Entre el nombre"
+
+#: Util/helper.php:56
+msgid "Select a price list"
+msgstr "Elija la lista de precios"
+
+#: Util/helper.php:57
+msgid "Saved!"
+msgstr "Guardado!"
+
+#: Util/helper.php:58
+msgid "Enter role name"
+msgstr "Entre nombre del role"
+
+#: Util/helper.php:59
+msgid "Add role"
+msgstr "Agregue el role"
+
+#: Util/helper.php:60
+msgid "The role was successfully removed"
+msgstr "El role fiue eliminado correctamente"
+
+#: Util/helper.php:61
+msgid "You need to define a valid name"
+msgstr "Defina un nombre válido"
+
+#: Util/helper.php:63
+msgid "ID"
+msgstr "ID"
+
+#: Util/helper.php:64 Util/helper.php:75
+msgid "Name"
+msgstr "Nombre"
+
+#: Util/helper.php:65
+msgid "SKU"
+msgstr "SKU"
+
+#: Util/helper.php:66
+msgid "Category"
+msgstr "Categoría"
+
+#: Util/helper.php:67
+msgid "Type"
+msgstr "Tipo"
+
+#: Util/helper.php:68
+msgid "Price"
+msgstr "Precio"
+
+#: Util/helper.php:69
+msgid "Regular"
+msgstr "Regular"
+
+#: Util/helper.php:70
+msgid "Sale"
+msgstr "Venta"
+
+#: Util/helper.php:71
+msgid "Variation"
+msgstr "Variación"
+
+#: Util/helper.php:76
+msgid "Actions"
+msgstr "Acciones"
+
+#: Util/helper.php:78
+msgid "Update List"
+msgstr "Actualizar Lista"
+
+#: Util/helper.php:79
+msgid "Add List"
+msgstr "Agregar Lista"
+
+#: Util/helper.php:80
+msgid "Are you sure to delete this list?"
+msgstr "Estas seguro de eliminar la lista?"
+
+#: Util/helper.php:81
+msgid "Are you sure to delete this role?"
+msgstr "Estas seguro de elimiar el role?"
+
+#: Util/helper.php:82
+msgid "No, Thanks"
+msgstr "No, Gracias"
+
+#: Util/helper.php:83
+#, fuzzy
+#| msgid ""
+#| "Define the percent that the list will have with reference to the parent "
+#| "list,<br> e.g: if you enter 50, the prices of the list will have 50% of "
+#| "the parent list prices."
+msgid ""
+"Define the percent that the list will have with reference to the parent list"
+msgstr ""
+"Defina el porcentaje que la nueva lista tendrá basado en los precios  de la "
+"lista padre"
+
+#: Util/helper.php:84
+msgid ""
+"You can select a price list to copy its prices based on a percentage you "
+"define"
+msgstr ""
+"Puede seleccionar una lista para copiar los precios basados en percentage "
+"que defina"
+
+#: Util/helper.php:85
+msgid "Copy prices from:"
+msgstr "Copiar precio de:"
+
+#: Util/helper.php:86
+msgid "Enter price list name"
+msgstr "Agregue el nombre de la lista"
+
+#: Util/helper.php:87
+msgid "Save"
+msgstr "Guardar"
+
+#: Util/helper.php:88
+msgid "Percent"
+msgstr "Porciento"
+
+#: Util/helper.php:89
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: Util/helper.php:90
+msgid "Confirm"
+msgstr "Confirmar"
+
+#: Util/helper.php:91
+msgid "Roles"
+msgstr "Roles"
+
+#: Util/helper.php:92
+msgid "Role"
+msgstr "Rol"
+
+#: Util/helper.php:93
+msgid ""
+"<strong>Note:</strong> Roles without a list assigned will see the price "
+"under the default list. See settings section to define a default price list."
+msgstr ""
+"<strong>Nota:</strong> Roles que no tenga una lista de precio asignado verán "
+"los precio de las lista por defecto. Vaya ajuste si aún no tiene una lista "
+"por defecto definida."
+
+#: Util/helper.php:94
+msgid ""
+"Assign a price list to each role, so that all users who correspond to the "
+"role will see only the price that corresponds to the assigned price list."
+msgstr ""
+"Asigne una lista para cada role, por lo que todos los usuarios de cierto "
+"role verán los precios de la lista que tenga asignada en esta sección."
+
+#: Util/helper.php:95
+msgid ""
+"**Only the roles created with the WR Price manager plugin can be removed on "
+"this screen. This is because others plugin can need those roles to work "
+"correctly."
+msgstr ""
+"** Solo los roles creados con este plugin pueden ser modificado por este "
+"plugin. Estos es porque otros plugin quizás usen estos roles para  ciertas "
+"tareas."
+
+#: Util/helper.php:96
+msgid ""
+"Type a name and upload a csv with the prices to create a list from scratch."
+msgstr ""
+"Escriba un nombre y cargue un csv con los precios para crear una lista de "
+"precios desde 0."
+
+#: Util/helper.php:97
+msgid "Select a price list to update/insert the csv prices."
+msgstr ""
+"Seleccione una lista para actualizar/insetar los precios que se carguen en "
+"el archivo csv."
+
+#: Util/helper.php:98
+msgid "Upload"
+msgstr "Cargar"
+
+#: Util/helper.php:99
+msgid "You can use this template"
+msgstr "Puede usar esta plantilla"
+
+#: Util/helper.php:100
+msgid "as reference."
+msgstr "como referencia."
+
+#: Util/helper.php:101
+msgid "Add a new price list"
+msgstr "Añada una lista de precios"
+
+#: Util/helper.php:102
+msgid "Update a price list"
+msgstr "Actualice una lista de precio"
+
+#: Util/helper.php:103
+msgid "Import Price List"
+msgstr "Importe la lista"
+
+#: Util/helper.php:104
+msgid "Import Results"
+msgstr "Resultados de la importación"
+
+#: Util/helper.php:105
+msgid "Import"
+msgstr "Importar"
+
+#: Util/helper.php:107
+msgid "Settings"
+msgstr "Ajustes"
+
+#: Util/helper.php:108
+msgid "Choose a default price list for unregistered/guest (users without role)"
+msgstr "Elija una lista para los usarios no registrados en el sistema"
+
+#: Util/helper.php:109
+msgid "Choose the price format (Simple Product)"
+msgstr "Elija el formato de precio para los productos simples"
+
+#: Util/helper.php:110
+msgid "Regular / Sale"
+msgstr "Regular / venta"
+
+#: Util/helper.php:111
+msgid "Sale / Regular"
+msgstr "Venta  / Regular"
+
+#: Util/helper.php:112
+msgid "Just Price"
+msgstr "Solo precio"
+
+#: Util/helper.php:113
+msgid ""
+"Choose a personalized message to hide prices from unregistered/guest users"
+msgstr ""
+"Marque aquí y escribe un mensaje personalizado para los usuarios no "
+"registrados"
+
+#: Util/helper.php:114
+msgid "Hide prices to guest"
+msgstr "Oculte los precios a los usarios no registrados"

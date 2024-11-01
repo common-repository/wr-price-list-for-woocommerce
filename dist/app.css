@@ -1,0 +1,156 @@
+
+.el-table_1_column_7 .cell{
+        text-align: center;
+}
+.el-input__wrapper{
+        padding: 0 !important;
+}
+th .cell{
+        font-size: 11px;
+}
+.product-footer-pagination{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+}
+.btn-prev, .btn-next{
+        margin-top: -6px !important;
+}
+.el-input__inner{
+        background: white !important;
+}
+.pagination-footer-count-text{
+        font-size: 12px;
+}
+.el-badge__content{
+        font-size: 10px !important;
+}
+.price-column .el-input-number__decrease, .price-column .el-input-number__increase{
+        display: none !important;
+}
+.price-column > .cell > .el-input-number{
+        width: 80px !important;
+}
+.page-length{
+        width: 65px;
+        float: right;
+}
+.show-icon svg{
+        height: 14px !important;
+}
+.price-list-select{
+        width: 280px;
+}
+
+
+
+.roles{
+         font-size: 12px;
+}
+.add-role-btn{
+        float: right;
+}
+
+
+.price_lists{
+        font-size: 12px;
+}
+.add-price-list-btn{
+        float: right;
+}
+.select-pl, .factor-field{
+        width: 100% !important;
+}
+.info-field{
+        font-size: 11px;
+        width: fit-content !important;
+        margin-bottom: 0 !important;
+}
+.percent-cell.above{
+        color: green;
+}
+.percent-cell.below{
+        color: red;
+}
+
+
+
+.import-section .el-select--small, .import-section .el-input{
+        width: 100% !important;
+}
+
+
+
+.settings-section .el-select--small, .settings-section textarea{
+        width: 400px !important;
+        font-size: 12px;
+}
+.settings-section textarea{
+        height: 150px;
+}
+
+
+
+p.license-info{
+        font-size: 11px;
+}
+.premium-bulletpoints{
+        padding-left: 0 !important;
+}
+.premium-bulletpoints li{
+        font-size: 13px;
+}
+.license-section .el-card{
+        min-height: 320px;
+}
+.license-section .el-card a{
+        color: white;
+        text-decoration: none;
+}
+
+
+
+#wrpl-app{
+    background: #eef1f5 !important;
+    height: 100vh;
+}
+.wrpl-sidebar, .wrpl-admin-main, .wrpl-admin-main > .el-row, .wrpl-sidebar > .el-menu{
+    height: 100%;
+}
+.el-table__body, #wrpl-app{
+    font-family: 'Poppins' !important;
+}
+.el-table__body .cell{
+    font-size: 11px;
+}
+#wpfooter{
+    display: none;
+}
+#wpbody-content{
+    padding-bottom: 0 !important;
+}
+.wrpl-sidebar{
+    background: white;
+}
+.wrpl-sidebar img{
+    display: block !important;
+    margin: 10px auto 0px;
+    height: 80px !important;
+    width: 90% !important;
+}
+.wrpl-sidebar hr{
+    margin: 0 !important;
+}
+.wrpl-sidebar span{
+    font-size: 13px;
+}
+.wrpl-sidebar .el-menu{
+    border: 0;
+}
+.pro-badge .el-badge__content{
+    top: -28px !important;
+}
+
+
+
+/*# sourceMappingURL=app.css.map*/
